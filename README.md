@@ -1,16 +1,122 @@
-# React + Vite
+🚀 Mohd Zaid | Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal developer portfolio built with React.js and Tailwind CSS to showcase my technical skills, education, projects, and professional journey as a MERN Stack Developer.
 
-Currently, two official plugins are available:
+🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Visit My Portfolio
 
-## React Compiler
+📸 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Modern UI: Clean and professional portfolio design.
+* Responsive Design: Optimized for desktop, tablet, and mobile devices.
+* Hero Section: Introduction and quick navigation to projects and contact.
+* About Me: Personal introduction and educational background.
+* Skills Section: Showcase of technical skills and technologies.
+* Projects Section: Display of featured development projects.
+* Resume Download: Downloadable PDF resume.
+* Contact Form: EmailJS integration for receiving messages.
+* Social Links: Direct links to LinkedIn, GitHub, and Instagram.
+* Smooth Navigation: Interactive navigation and scrolling.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technology	Purpose
+React.js	Frontend library
+JavaScript	Application logic
+Tailwind CSS	Styling and responsive UI
+Vite	Development and build tool
+React Router DOM	Routing
+React Icons	Icons
+EmailJS	Contact form integration
+Git & GitHub	Version control
+
+📂 Project Structure
+
+portfolio-react/
+│
+├── public/
+│   └── Resume.pdf
+│
+├── src/
+│   ├── assets/
+│   │   └── asstes.js
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Work.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── pages/
+│   │   └── Home.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js
+
+⚙️ Installation & Setup
+
+1. Clone the repository
+
+git clone https://github.com/hlozaid/portfolio-react.git
+
+2. Navigate to the project
+
+cd portfolio-react
+
+3. Install dependencies
+
+npm install
+
+4. Start development server
+
+npm run dev
+
+5. Build for production
+
+npm run build
+
+📧 EmailJS Configuration
+
+To enable the contact form, create an account on EmailJS and configure the following environment variables in a .env file:
+
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+
+Never upload real API credentials or secrets to GitHub.
+
+🚀 Deployment
+
+This project is configured for GitHub Pages.
+
+npm run deploy
+
+🎯 Learning Outcomes
+
+* Improved React component-based development.
+* Practiced responsive UI development using Tailwind CSS.
+* Integrated third-party services using EmailJS.
+* Worked with React Router and reusable components.
+* Learned production builds and GitHub Pages deployment.
+
+👨‍💻 Author
+
+Mohd Zaid
+
+* GitHub: @hlozaid
+* LinkedIn: Mohd Zaid
+* Instagram: @__zaidgaur
+
+⸻
+
+⭐ If you like this project, consider giving it a star!
+
+Built with ❤️ by Mohd Zaid
