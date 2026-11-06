@@ -66,7 +66,7 @@ const About = () => {
             <a
               id="resume-download"
               href="/Resume.pdf"
-              download="Mohd_Zaid_Resume.pdf"
+              download="Resume.pdf"
               className="inline-block px-8 py-4 bg-zinc-700 text-white rounded-full cursor-pointer transition duration-300 hover:bg-zinc-900"
             >
               Download Resume
