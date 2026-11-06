@@ -10,6 +10,10 @@ h1,h2,h3,h4 {
        font-family: "Poppins", sans-serif;
 
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px; /* fixed navbar section ka top na dhake */
+}
 
 @keyframes float{
     0%, 100% {transform: translateY(0);}

@@ -40,22 +40,22 @@ export const skillsData = [
   {
     icon: FaMicrochip,
     title: "Backend",
-    technologies: ["Python", "Postgres", "Redis", "Next.js"],
+    technologies: ["JavaScript","Node.js", "Express", "Core Java","Python"],
   },
   {
     icon: FaReact,
     title: "Frontend",
-    technologies: ["React", "Html", "Css", "Tailwindcss"],
+    technologies: ["React", "HTML", "Css", "Tailwindcss", "Bootstrap"],
   },
   {
     icon: FaDesktop,
-    title: "Web",
-    technologies: ["Nginx", "Linux", "Wsgi", "Server"],
+    title: "Databases",
+    technologies: ["MongoDB", "MySQL",],
   },
   {
     icon: FaCode,
     title: "DevOps",
-    technologies: ["Linux", "Git", "Github", "Docker", "Jenkins", "CI/CD"],
+    technologies: ["Git", "Github", "Docker",],
   },
   {
     icon: FaMobile,
@@ -66,27 +66,28 @@ export const skillsData = [
 
 export const projectData = [
   {
-    title: "Health Care",
-    description: "Immersive shopping experience with python tailwind and react",
+    title: "Wanderlust",
+    description:
+      "Wanderlust is an Airbnb-style web app where users can browse travel stays, list their own properties with photos, and leave reviews. It is a full-stack project built with Node.js, Express, MongoDB and EJS, following the MVC pattern.",
     image:
-      "https://plus.unsplash.com/premium_photo-1661293879952-c5c093282801?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D",
-    tech: ["React", "Tailwindcss", "Python"],
+      "https://images.unsplash.com/photo-1657256031855-68029292ff34?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    tech: ["Node.js", "Express", "MongoDB", "Ejs", "Bootstrap"],
   },
   {
-    title: "FurniCraft",
+    title: "Weather Web App",
     description:
       "A modern furniture e-commerce platform offering customizable home and office furniture .",
     image:
-      "https://plus.unsplash.com/premium_photo-1684769161054-2fa9a998dcb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2plY3R8ZW58MHx8MHx8fDA%3D",
-    tech: ["React", "Tailwindcss", "Python"],
+      "https://images.unsplash.com/photo-1579806591795-82fa34772482?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    tech: ["React", "Material UI", "OpenWeatherMap API"],
   },
   {
-    title: "Collaboration",
+    title: "Portfolio",
     description:
-      "A real-time collaborative platform for artists and designers to co-create digital art",
+      "Modern web developer passionate about crafting responsive, fast, and user-centric web applications. Built using React and Tailwind CSS with a focus on clean code and interactive design.",
     image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2plY3R8ZW58MHx8MHx8fDA%3D",
-    tech: ["React", "Tailwindcss", "Python"],
+      "https://images.unsplash.com/photo-1545665277-5937489579f2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    tech: ["React", "Tailwindcss"],
   },
   {
     title: "Abmbivista",
