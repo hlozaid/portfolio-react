@@ -65,7 +65,7 @@ const About = () => {
           <div className="order-4 lg:col-start-1 lg:row-start-3 flex justify-center lg:justify-start">
             <a
               id="resume-download"
-              href="/Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Resume.pdf`}
               download="Resume.pdf"
               className="inline-block px-8 py-4 bg-zinc-700 text-white rounded-full cursor-pointer transition duration-300 hover:bg-zinc-900"
             >
