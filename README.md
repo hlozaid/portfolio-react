@@ -4,12 +4,12 @@ A modern, responsive personal developer portfolio built with React.js and Tailwi
 
 🌐 Live Demo
 
-Visit My Portfolio
+Visit My Portfolio https://hlozaid.github.io/portfolio-react/
 
 📸 Features
 
 * Modern UI: Clean and professional portfolio design.
-* Responsive Design: Optimized for desktop, tablet, and mobile devices.
+* Responsive Design: Optimised for desktop, tablet, and mobile devices.
 * Hero Section: Introduction and quick navigation to projects and contact.
 * About Me: Personal introduction and educational background.
 * Skills Section: Showcase of technical skills and technologies.
